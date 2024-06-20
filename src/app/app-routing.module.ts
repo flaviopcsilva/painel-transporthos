@@ -11,30 +11,31 @@ import { ConstrucaoComponent } from './pages/construcao/construcao.component';
 
 const routes: Routes = [
 
+
   {
     path: '',
-    component: HomeComponent
+    component: ConstrucaoComponent
   },
   // {
   //   path: '',
-  //   component: ConstrucaoComponent
+  //   component: HomeComponent
   // },
-  {
-    path: 'painel',
-    component: PainelCadastroComponent, canActivate: [AuthGuard]
-  },
-  {
-    path: 'cadastro',
-    component: CadastroPopupComponent, canActivate: [AuthGuard]
-  },
-  {
-    path: 'listagem',
-    component: PainelComponent, canActivate: [AuthGuard]
-  },
-  {
-    path: 'editar',
-    component: EditarPopupComponent, canActivate: [AuthGuard]
-  },
+  // {
+  //   path: 'painel',
+  //   component: PainelCadastroComponent, canActivate: [AuthGuard]
+  // },
+  // {
+  //   path: 'cadastro',
+  //   component: CadastroPopupComponent, canActivate: [AuthGuard]
+  // },
+  // {
+  //   path: 'listagem',
+  //   component: PainelComponent, canActivate: [AuthGuard]
+  // },
+  // {
+  //   path: 'editar',
+  //   component: EditarPopupComponent, canActivate: [AuthGuard]
+  // },
 
 
   {
