@@ -6,17 +6,19 @@ import { PainelCadastroComponent } from './pages/painel-cadastro/painel-cadastro
 import { AuthGuard } from './auth.guard';
 import { CadastroPopupComponent } from './pages/cadastro-popup/cadastro-popup.component';
 import { EditarPopupComponent } from './pages/editar-popup/editar-popup.component';
+import { ConstrucaoComponent } from './pages/construcao/construcao.component';
+
 
 const routes: Routes = [
 
-  // {
-  //   path: '',
-  //   component: ManutencaoComponent
-  // },
   {
     path: '',
     component: HomeComponent
   },
+  // {
+  //   path: '',
+  //   component: ConstrucaoComponent
+  // },
   {
     path: 'painel',
     component: PainelCadastroComponent, canActivate: [AuthGuard]

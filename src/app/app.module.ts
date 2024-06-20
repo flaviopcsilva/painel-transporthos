@@ -27,6 +27,8 @@ import { DownloadModalComponent } from './download-modal/download-modal.componen
 import { PdfComponent } from './pages/pdf/pdf.component';
 import { NgxMaskModule } from 'ngx-mask';
 
+import { ConstrucaoComponent } from './pages/construcao/construcao.component';
+
 
 
 @NgModule({
@@ -41,7 +43,8 @@ import { NgxMaskModule } from 'ngx-mask';
     CadastroModalComponent,
     PopUpModalComponent,
     DownloadModalComponent,
-    PdfComponent
+    PdfComponent,
+    ConstrucaoComponent
 
   ],
   imports: [
