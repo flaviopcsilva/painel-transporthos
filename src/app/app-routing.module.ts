@@ -12,30 +12,32 @@ import { ConstrucaoComponent } from './pages/construcao/construcao.component';
 const routes: Routes = [
 
 
-  {
-    path: '',
-    component: ConstrucaoComponent
-  },
   // {
   //   path: '',
-  //   component: HomeComponent
+  //   component: ConstrucaoComponent
   // },
-  // {
-  //   path: 'painel',
-  //   component: PainelCadastroComponent, canActivate: [AuthGuard]
-  // },
-  // {
-  //   path: 'cadastro',
-  //   component: CadastroPopupComponent, canActivate: [AuthGuard]
-  // },
-  // {
-  //   path: 'listagem',
-  //   component: PainelComponent, canActivate: [AuthGuard]
-  // },
-  // {
-  //   path: 'editar',
-  //   component: EditarPopupComponent, canActivate: [AuthGuard]
-  // },
+
+
+  {
+    path: '',
+    component: HomeComponent
+  },
+  {
+    path: 'painel',
+    component: PainelCadastroComponent, canActivate: [AuthGuard]
+  },
+  {
+    path: 'cadastro',
+    component: CadastroPopupComponent, canActivate: [AuthGuard]
+  },
+  {
+    path: 'listagem',
+    component: PainelComponent, canActivate: [AuthGuard]
+  },
+  {
+    path: 'editar',
+    component: EditarPopupComponent, canActivate: [AuthGuard]
+  },
 
 
   {
